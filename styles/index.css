@@ -1,1 +1,82 @@
 /* Header styles */
+
+body {
+    background-color: rgb(243 244 246);
+}
+
+.container {
+    margin: 20px;
+    background-color: white;
+    display: block;
+    font-family: 'Courier New';
+}
+
+.header-container {
+    text-align: center;
+    font-family: cursive;
+}
+
+.menu-navigation {
+    text-align: justify;
+    background-color: tomato;
+    padding: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.menu-navigation a {
+    padding-top: 10px;
+    color: white;
+    padding: 10px;
+}
+
+.menu-navigation a:hover {
+    background-color: red;
+}
+
+/* Container styles */
+.body-container {
+    padding: 15px;
+}
+
+#aboutme {
+    text-align: center;
+}
+
+#aboutme p {
+    display: inline-block;
+}
+
+.section-container {
+    display: inline-block;
+}
+
+.non-side-bar {
+    width: 70%;
+    margin: auto;
+}
+
+.side-bar {
+    margin: auto;
+    width: 20%;
+}
+
+.articles {
+    display: block;
+}
+
+/* Footer styles */
+.footer-container {
+    background-color: darkslategrey;
+    height: 50px;
+    padding: 10px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.footer-container a {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
